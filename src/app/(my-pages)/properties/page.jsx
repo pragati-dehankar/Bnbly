@@ -25,7 +25,7 @@ export default async function Properties() {
         <h1 className='text-3xl font-semibold '>Your properties</h1>
         <div className='grid  grid-cols-2  md:grid-cols-4 gap-5'>
             {propertiesList.map((each)=>(
-              <PropertyBox each={each}/>
+              <PropertyBox each={each} key={each.id}/>
             ))}
         </div>
     </div>

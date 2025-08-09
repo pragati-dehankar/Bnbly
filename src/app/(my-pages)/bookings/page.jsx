@@ -20,7 +20,7 @@ export default async function Bookings() {
         <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
         {
             reservations.map((each,index)=>(
-            <BookedCard resv={each}  />
+            <BookedCard key={each.id} resv={each}  />
             ))
         }
         </div> 

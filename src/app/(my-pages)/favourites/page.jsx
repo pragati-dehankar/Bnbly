@@ -16,6 +16,7 @@ export default async function Favourite() {
     <div className='p-4 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-5 '>
         {favourites.map(each=>(
             <ListingCards
+            key={each.id}
             listing={each}
             user={user}
             />
