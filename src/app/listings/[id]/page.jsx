@@ -1,3 +1,5 @@
+"use client"
+
 import getListingById from "@/app/actions/getListingById";
 import { getReservationById } from "@/app/actions/getReservations";
 import { getCountryByValue } from "@/lib/countries"; // server-safe
