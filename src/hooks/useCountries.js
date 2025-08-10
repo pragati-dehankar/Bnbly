@@ -1,3 +1,4 @@
+"use client"
 import countries from "world-countries"
 
 
