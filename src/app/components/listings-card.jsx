@@ -23,7 +23,7 @@ export default function ListingCards({
   return (
     <div className="p-3 rounded shadow border border-gray-200">
       {/* Image */}
-      <div className="w-full rounded-lg overflow-hidden relative">
+      <div className="w-full rounded-lg overflow-hidden ">
         <Image
           className="object-cover w-full h-48 rounded-lg"
           src={listing?.imageSrc || "/placeholder.jpg"}
